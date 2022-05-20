@@ -23,8 +23,6 @@ const checkout = async (req, res) => {
 
 app.get('/check-out', checkout); 
 
-
-
 //SERVIDOR
 
 app.listen(3000,()=> {
